@@ -41,33 +41,40 @@ mutation {
 
 ## 2. AddAuthor
 
+```graphql
 mutation {
   addAuthor(name: "Behzad Author") {
     id
     name
   }
 }
+```
 
 ## 3. AddBook
 
+```graphql
  mutation {
    addBook(input: { title: "My Book", isbn: "1234567890", authorId: 1 }) {
      id
      title
    }
  }
+```
 
 ## 4. GetAuthors
 
+```graphql
 query {
   authors {
     id
     name
   }
 }
+```
 
 ## 5. GetBooks
 
+```graphql
 query {
   books{
     id,
@@ -79,9 +86,11 @@ query {
     }
   }
 }
+```
 
 ## 6. GetUsers
 
+```graphql
 query{
   users(q: "Behzad"){
     id
@@ -97,6 +106,7 @@ query{
       }
     }
   }
+```
 
 ![Sample Get Users Query](LibraryManagement.png)
 
