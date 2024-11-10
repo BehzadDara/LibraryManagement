@@ -37,6 +37,7 @@ mutation {
     name
   }
 }
+```
 
 ## 2. AddAuthor
 
