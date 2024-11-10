@@ -30,6 +30,7 @@
 
 ## 1. AddUser
 
+```graphql
 mutation {
   addUser(name: "Behzad User") {
     id
