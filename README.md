@@ -108,7 +108,7 @@ query{
   }
 ```
 
-![Sample Get Users Query](LibraryManagement.png)
+![Sample Get Users Query](./LibraryManagement.png)
 
 ---
 
